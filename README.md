@@ -1,4 +1,4 @@
-# SwiftUI: Fleaflicker API iOS App
+# SwiftUI: Fleaflicker iOS App (API)
 A simple API driven view only iOS app for my Fleaflicker leagues/teams. The goal of this project was to learn how to pull from a live api into an app.
 
 https://user-images.githubusercontent.com/1506312/119362003-2b2d9c80-bca4-11eb-9b4c-0cea7c7696ab.mp4
