@@ -17,9 +17,11 @@ struct ScoreView: View {
         var awayId: Int
         var awayName: String
         var awayScore: String
+        var awayToPlay: Int
         var homeId: Int
         var homeName: String
         var homeScore: String
+        var homeToPlay: Int
     }
     
     // VAR TO HOLD JSON DATA
@@ -44,6 +46,9 @@ struct ScoreView: View {
                         HStack {
                             // NAME
                             Text(game.awayName)
+                            Text("(\(game.awayToPlay))")
+                                .font(.footnote)
+                                .foregroundColor(.gray)
                             
                             Spacer()
                             
@@ -57,6 +62,9 @@ struct ScoreView: View {
                         HStack {
                             // NAME
                             Text(game.homeName)
+                            Text("(\(game.homeToPlay))")
+                                .font(.footnote)
+                                .foregroundColor(.gray)
                             
                             Spacer()
                             
@@ -171,9 +179,11 @@ struct ScoreView: View {
                             awayId: games[0].away.id,
                             awayName: games[0].away.name,
                             awayScore: games[0].awayScore.score.formatted,
+                            awayToPlay: games[0].awayScore.yetToPlay,
                             homeId: games[0].home.id,
                             homeName: games[0].home.name,
-                            homeScore: games[0].homeScore.score.formatted
+                            homeScore: games[0].homeScore.score.formatted,
+                            homeToPlay: games[0].homeScore.yetToPlay
                         )
                         
                         // append the game to the games array to be displayed on screen
