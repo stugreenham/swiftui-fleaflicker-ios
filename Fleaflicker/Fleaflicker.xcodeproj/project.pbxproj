@@ -26,6 +26,7 @@
 		27E3F6FC264949DC00B2160D /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3F6FB264949DC00B2160D /* Function.swift */; };
 		27E3F6FE26496CA600B2160D /* RosterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3F6FD26496CA600B2160D /* RosterHeaderView.swift */; };
 		27E3F70026496CB000B2160D /* RosterPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3F6FF26496CB000B2160D /* RosterPlayerView.swift */; };
+		27EDFED326EB71A600479E25 /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EDFED226EB71A600479E25 /* ScoreModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		27E3F6FB264949DC00B2160D /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		27E3F6FD26496CA600B2160D /* RosterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterHeaderView.swift; sourceTree = "<group>"; };
 		27E3F6FF26496CB000B2160D /* RosterPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterPlayerView.swift; sourceTree = "<group>"; };
+		27EDFED226EB71A600479E25 /* ScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				27E3F6F32649361C00B2160D /* LeagueModel.swift */,
 				27E3F6F52649373800B2160D /* RosterModel.swift */,
 				27E3F6F92649386D00B2160D /* DraftBoardModel.swift */,
+				27EDFED226EB71A600479E25 /* ScoreModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				27E3F6FA2649386D00B2160D /* DraftBoardModel.swift in Sources */,
 				270E63A726459A5600A85902 /* DraftBoardTeamHeaderView.swift in Sources */,
 				274258E226498BF100C18978 /* SettingsView.swift in Sources */,
+				27EDFED326EB71A600479E25 /* ScoreModel.swift in Sources */,
 				27E3F6F42649361C00B2160D /* LeagueModel.swift in Sources */,
 				270E63A5264585CE00A85902 /* DraftBoardView.swift in Sources */,
 				27E3F6F62649373800B2160D /* RosterModel.swift in Sources */,
